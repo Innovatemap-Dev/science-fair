@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Letters For Learners', sans-serif;
+    src: url('/assets/Letters\ for\ Learners.ttf');
+}
+
+body {
+    background-color: black;
+    font-family: 'Letters For Learners';
+    color: white;
+    font-size: 24px;
+    margin: 0;
+    height: 100vh;
+    max-height: 1000px;
+}
+
+
+a {
+    color: #ACDADE;
+}
+
+.inner {
+    width: 100vw;
+    height: 100%;
+    max-height: 100vh;
+    max-width: 450px;
+    background-image: url('/assets/darkPaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    max-height: 100vh;
+}
+
+header {
+    display: flex column;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo-home {
+    background-image: url('/assets/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    width: 100%;
+    height: 100px;
+    margin: 60px 0 60px 0;
+    position: relative;
+}
+
+.logo-home a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.logo {
+    background-image: url('/assets/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    width: 100%;
+    height: 60px;
+    margin: 60px 0 24px 0;
+    position: relative;
+}
+
+.logo a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+section {
+    border-top: 1px dashed white;
+    margin: 0 42px 0 42px;
+}
+ol {
+    list-style-position: inside;
+    padding-left: 0;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.attribution {
+    display: flex;
+    justify-content: space-around;
+}
+.attribution span {
+    margin: 24px 0 24px 0;
+    font-size: 18px;
+}
+.spacer {
+    height: 4px;
+}
+
+footer {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.qrc {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin: 20px 0 20px 0;
+}
+.banana {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.list-presentation li:not(:first-child) {
+    padding: 18px 0 12px 0;
+    border-top: 1px dashed white;
+}
+.list-presentation li:first-child {
+    padding-bottom: 12px;
+}
+.list-presentation li:last-child {
+    padding-bottom: 0;
+}
+.list-presentation span p {
+    margin: 6px 0 0 0;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 24px 0 24px 0;
+}
