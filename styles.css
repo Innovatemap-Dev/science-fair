@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Letters For Learners', sans-serif;
-    src: url('assets/LettersforLearners.woff2') format('woff2'),
-        url('assets/LettersforLearners.woff') format('woff'),
-        url('assets/LettersforLearners.ttf') format('truetype'),
-        url('assets/LettersforLearners.svg') format('svg');
+    src: url('/assets/LettersforLearners.woff2') format('woff2'),
+        url('/assets/LettersforLearners.woff') format('woff'),
+        url('/assets/LettersforLearners.ttf') format('truetype'),
+        url('/assets/LettersforLearners.svg') format('svg');
 }
 
 body {
