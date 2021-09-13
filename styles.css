@@ -1,7 +1,8 @@
 @font-face {
     font-family: 'Letters For Learners', sans-serif;
     src: url('assets/Letters\ for\ Learners.woff2') format('woff2'),
-        url('assets/Letters\ for\ Learners.woff') format('woff');
+        url('assets/Letters\ for\ Learners.woff') format('woff'),
+        url('assets/Letters\ for\ Learners.ttf') format('truetype');
 }
 
 body {
