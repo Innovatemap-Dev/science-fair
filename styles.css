@@ -191,3 +191,8 @@ h1 {
 .img-wrap iframe {
     margin-top: 12px;
 }
+
+.restrictions {
+    font-style: italic;
+    font-size: 12px;;
+}
