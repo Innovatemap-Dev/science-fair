@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Letters For Learners', sans-serif;
+    font-family: 'LettersForLearners', sans-serif;
     src: url('./assets/LettersforLearners.woff2') format('woff2'),
         url('./assets/LettersforLearners.woff') format('woff'),
         url('./assets/LettersforLearners.ttf') format('truetype'),
@@ -8,7 +8,7 @@
 
 body {
     background-color: black;
-    font-family: 'Letters For Learners';
+    font-family: 'LettersForLearners';
     color: white;
     font-size: 24px;
     margin: 0;
