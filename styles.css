@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'LettersForLearners', sans-serif;
-    src: url('assets/LettersforLearners.woff2') format('woff2'),
-        url('assets/LettersforLearners.woff') format('woff'),
-        url('assets/LettersforLearners.ttf') format('truetype'),
-        url('assets/LettersforLearners.svg') format('svg');
+    src: url('https://innovatemap-dev.github.io/science-fair/assets/LettersforLearners.woff2') format('woff2'),
+        url('https://innovatemap-dev.github.io/science-fair/assets/LettersforLearners.woff') format('woff'),
+        url('https://innovatemap-dev.github.io/science-fair/assets/LettersforLearners.ttf') format('truetype'),
+        url('https://innovatemap-dev.github.io/science-fair/assets/LettersforLearners.svg') format('svg');
 }
 
 body {
